@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/socircle/static/css/main.97ecb113.css",
-    "main.js": "/socircle/static/js/main.a89a57b3.js",
-    "static/media/Bathroom_bannerimg_lg.png": "/socircle/static/media/Bathroom_bannerimg_lg.dbc4ff3f4d1aa660fc25.png",
-    "static/media/Bathroom_bannerimg.png": "/socircle/static/media/Bathroom_bannerimg.409be711f93fe9901cdc.png",
-    "static/media/HIW-ImageTwo.png": "/socircle/static/media/HIW-ImageTwo.096decaefbcd0795db65.png",
-    "static/media/Shop_BannerImg.png": "/socircle/static/media/Shop_BannerImg.3db15443ff9b29711598.png",
-    "static/media/HeroImage.png": "/socircle/static/media/HeroImage.35507606bbc69803885f.png",
-    "static/media/ProductImage.png": "/socircle/static/media/ProductImage.65937b1821228fe44ae1.png",
-    "static/media/HIW-ImageFour.png": "/socircle/static/media/HIW-ImageFour.ae35409e270c6faec08f.png",
-    "static/media/HIW-ImageThree.png": "/socircle/static/media/HIW-ImageThree.4358efe1d034fd2353fb.png",
-    "static/media/HIW-ImageOne.png": "/socircle/static/media/HIW-ImageOne.de200e87918b81504088.png",
-    "static/media/SoCircle_SVG.svg": "/socircle/static/media/SoCircle_SVG.3541f62649c66a9c2df08a49e1572d34.svg",
-    "index.html": "/socircle/index.html",
-    "main.97ecb113.css.map": "/socircle/static/css/main.97ecb113.css.map",
-    "main.a89a57b3.js.map": "/socircle/static/js/main.a89a57b3.js.map"
+    "main.css": "/socircle-app/static/css/main.9ee32246.css",
+    "main.js": "/socircle-app/static/js/main.083032ec.js",
+    "static/media/Bathroom_bannerimg_lg.png": "/socircle-app/static/media/Bathroom_bannerimg_lg.dbc4ff3f4d1aa660fc25.png",
+    "static/media/Bathroom_bannerimg.png": "/socircle-app/static/media/Bathroom_bannerimg.409be711f93fe9901cdc.png",
+    "static/media/HIW-ImageTwo.png": "/socircle-app/static/media/HIW-ImageTwo.096decaefbcd0795db65.png",
+    "static/media/Shop_BannerImg.png": "/socircle-app/static/media/Shop_BannerImg.3db15443ff9b29711598.png",
+    "static/media/HeroImage.png": "/socircle-app/static/media/HeroImage.35507606bbc69803885f.png",
+    "static/media/ProductImage.png": "/socircle-app/static/media/ProductImage.65937b1821228fe44ae1.png",
+    "static/media/HIW-ImageFour.png": "/socircle-app/static/media/HIW-ImageFour.ae35409e270c6faec08f.png",
+    "static/media/HIW-ImageThree.png": "/socircle-app/static/media/HIW-ImageThree.4358efe1d034fd2353fb.png",
+    "static/media/HIW-ImageOne.png": "/socircle-app/static/media/HIW-ImageOne.de200e87918b81504088.png",
+    "static/media/SoCircle_SVG.svg": "/socircle-app/static/media/SoCircle_SVG.3541f62649c66a9c2df08a49e1572d34.svg",
+    "index.html": "/socircle-app/index.html",
+    "main.9ee32246.css.map": "/socircle-app/static/css/main.9ee32246.css.map",
+    "main.083032ec.js.map": "/socircle-app/static/js/main.083032ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.97ecb113.css",
-    "static/js/main.a89a57b3.js"
+    "static/css/main.9ee32246.css",
+    "static/js/main.083032ec.js"
   ]
 }

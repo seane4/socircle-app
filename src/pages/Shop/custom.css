@@ -1,0 +1,54 @@
+.bg-shop {
+    background-color: #733C87;
+    background-image: url("./Shop_BannerImg.png");
+}
+
+.unbounded {
+    font-family: Unbounded;
+}
+
+.product {
+    /* cursor: pointer; */
+    transition: all ease-in-out 0.2s;
+}
+
+.product:hover {
+    box-shadow: 0 3px 10px rgba(224, 224, 224, 0.8);
+    border: 1.5px solid black;
+}
+
+.badge {
+    padding: 6px 8px 6px 8px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.vision {
+    background-color: #FFD3AA;
+    color: #6F4621;
+}
+
+.allergy {
+    background-color: #AAFFC2;
+    color: #0F5323;
+}
+
+.skin {
+    background-color: #EEBFFF;
+    color: #4A105F;
+}
+
+.hearing {
+    background-color: #9BCFFF;
+    color: #244F77;
+}
+
+.cog {
+    background-color: #6A7122;
+    color: #F7FF9B;
+}
+
+.mobility {
+    background-color: #FFAAAA;
+    color: #852A2A;
+}

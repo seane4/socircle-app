@@ -1,0 +1,13 @@
+.avatar {
+    width: 24px;
+    height: 24px;
+    border: 1.5px solid white;
+}
+
+.avatar-lg {
+    width: 48px;
+    height: 48px;
+}
+.title {
+    font-family: 'Unbounded', sans-serif;
+}

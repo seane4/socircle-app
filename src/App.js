@@ -11,7 +11,7 @@ import Product from "./pages/Shop/SingleProduct/Product";
 function App() {
   return (
     <div className="App">
-      <Router>
+      {/* <Router> */}
         {/* <Home/> */}
         {/* <Shop/> */}
         <Product/>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/shop" component={<Shop/>}/>
           <Route path="/community" component={<Community/>}/>
         </Routes> */}
-      </Router>
+      {/* </Router> */}
     </div>
   );
 }

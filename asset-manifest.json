@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/socircle-app/static/css/main.9ee32246.css",
-    "main.js": "/socircle-app/static/js/main.083032ec.js",
+    "main.js": "/socircle-app/static/js/main.f615e328.js",
     "static/media/Bathroom_bannerimg_lg.png": "/socircle-app/static/media/Bathroom_bannerimg_lg.dbc4ff3f4d1aa660fc25.png",
     "static/media/Bathroom_bannerimg.png": "/socircle-app/static/media/Bathroom_bannerimg.409be711f93fe9901cdc.png",
     "static/media/HIW-ImageTwo.png": "/socircle-app/static/media/HIW-ImageTwo.096decaefbcd0795db65.png",
@@ -14,10 +14,10 @@
     "static/media/SoCircle_SVG.svg": "/socircle-app/static/media/SoCircle_SVG.3541f62649c66a9c2df08a49e1572d34.svg",
     "index.html": "/socircle-app/index.html",
     "main.9ee32246.css.map": "/socircle-app/static/css/main.9ee32246.css.map",
-    "main.083032ec.js.map": "/socircle-app/static/js/main.083032ec.js.map"
+    "main.f615e328.js.map": "/socircle-app/static/js/main.f615e328.js.map"
   },
   "entrypoints": [
     "static/css/main.9ee32246.css",
-    "static/js/main.083032ec.js"
+    "static/js/main.f615e328.js"
   ]
 }

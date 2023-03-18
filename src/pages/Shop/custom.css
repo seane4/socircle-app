@@ -3,6 +3,10 @@
     background-image: url("./Shop_BannerImg.png");
 }
 
+.bg-community {
+    background-image: url("../Community/CommunityBackdrop.png");
+}
+
 .unbounded {
     font-family: Unbounded;
 }
@@ -51,4 +55,13 @@
 .mobility {
     background-color: #FFAAAA;
     color: #852A2A;
+}
+
+.usercard {
+    border: 1.5px solid #b4b4b4;
+}
+
+.stickpad {
+    position: sticky;
+    top: 20px;
 }

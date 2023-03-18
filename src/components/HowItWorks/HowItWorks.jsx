@@ -6,14 +6,15 @@ import BannerImg from "./Bathroom_bannerimg.png"
 
 function HowItWorks() {
   return (
-    <section className="pt-5">
+    <section className="border-1 border-top bg-white">
+
       <div className="container">
         <div className="row pt-5 pb-5">
-          <div className="col-12 d-flex justify-content-center align-items-center">
+          {/* <div className="col-12 d-flex justify-content-center align-items-center">
             <hr className="flex-grow-1 border border-dark border-1 opacity-50" />
-            <h3 className="fs-4 text-center ms-5 me-5">How It Works</h3>
+            <h3 className="fs-4 text-center ms-5 me-5 mb-0">How It Works</h3>
             <hr className="flex-grow-1 border border-dark border-1 opacity-50" />
-          </div>
+          </div> */}
         </div>
 
         <div class="pt-5 pb-5 row align-items-center d-flex flex-lg-row flex-column-reverse justify-content-around">
@@ -75,6 +76,7 @@ function HowItWorks() {
           <img class="img-fluid" src={HIW_Image4} alt="Body lotion product image and user recommendation" />
         </div>
       </div>
+     
       </div>
     </section>
   )

@@ -5,13 +5,14 @@ import "../custom.css"
 import ProductImg from "../../Shop/ProductImage.png"
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
+import Footer from '../../../components/Footer/Footer'
 
 function Product() {
   return (
     <div>
         <Nav/>
         <main>
-            <div class="container">
+            <div class="container mt-5 mb-5">
                 <div class="row">
                     <div class="breadcrumb">
                         <nav aria-label="breadcrumb">
@@ -333,6 +334,7 @@ function Product() {
                 </div>
             </div>
         </main>
+        <Footer/>
     </div>
   )
 }

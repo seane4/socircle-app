@@ -15,6 +15,7 @@ function App() {
         {/* <Home/> */}
         {/* <Shop/> */}
         <Product/>
+        {/* <Community/> */}
         {/* <Routes>
           <Route exact path="/" component={<Home/>}/>
           <Route path="/shop" component={<Shop/>}/>

@@ -6,10 +6,11 @@ import HowItWorks from "../../components/HowItWorks/HowItWorks";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Shop from "../Shop/Shop"
 import Community from "../Community/Community";
+import "./home.css"
 
 function Home() {
   return (
-    <div>
+    <div class="bg-light homeback">
       <Nav/>
       {/* <Routes>
           <Route exact path="/" component={<Home/>}/>

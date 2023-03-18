@@ -12,11 +12,11 @@ function Shop() {
     return (
         <div>
             <Nav />
-            <main>
-                <div class="my-5">
+            <main class="bg-light">
+                <div class="pt-5">
                     {/*Container*/}
 
-                    <div class="container">
+                        <div class="container bg-light">
 
                         <div class="container">
                             <div class="row p-5 bg-shop my-5 text-white text-center">
@@ -32,10 +32,10 @@ function Shop() {
 
                         {/*Row*/}
 
-                        <div class="row gx-10 mt-5">
+                        <div class="row gap-3 mt-5 d-flex flex-fill bg-white">
 
                             {/*Col*/}
-                            <aside class="col-lg-3 col-md-4 mb-6 mb-md-0 bg-white">
+                            <aside class="col-lg-2 d-flex flex-fill col-md-4 mb-6 mb-md-0 p-3">
 
                             <div class="offcanvas offcanvas-start offcanvas-collapse w-md-50" tabIndex="-1" id="offcanvasCategory" aria-labelledby="offcanvasCategoryLabel">
 
@@ -439,7 +439,7 @@ function Shop() {
                             
                             </aside>
                             
-                            <section class="col-lg-9 col-md-12">
+                            <section class="col-lg-9 col-md-12 p-3">
 
                                 <div class="mb-4 rounded">
                                     <input type="text" class="form-control" id="search" placeholder="Search for products"/>
@@ -448,7 +448,7 @@ function Shop() {
                                 <div class="d-lg-flex justify-content-between align-items-center">
 
 
-                                    <div class="d-md-flex justify-content-between align-items-center w-100">
+                                    <div class="d-md-flex justify-content-between align-items-center w-100 ">
                                         <div class="d-flex align-items-center justify-content-between mb-0 ">
                                             <div class="ms-0 d-lg-none">
                                                 <btn class="btn btn-outline-secondary me-2" data-bs-toggle="offcanvas" href="#offcanvasCategory" role="button" aria-controls="offcanvasCategory">
@@ -593,6 +593,7 @@ function Shop() {
                                                 <div class="text-center position-relative ">
                                                     <a href="">
                                                         <img src={ProductImg} alt="" class="mb-0 img-fluid w-100"/>
+                                                        
                                                     </a>
                                                 </div>
                                                 <div class="p-1">

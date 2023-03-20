@@ -491,9 +491,9 @@ function Shop() {
                                         <div class="card card-product border-1 p-2 product itemheight">
                                             <div class="card-body p-0 itemheight">
                                                 <div class="text-center position-relative ">
-                                                    <a href="">
+                                                    <Link to="/product">
                                                         <img src={ProductImg} alt="Nécessaire Body Lotion Image" class="mb-0 img-fluid w-100"/>
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                                 <div class="p-1">
                                                     <div class="badgegroup d-flex flex-row gap-1 flex-wrap">

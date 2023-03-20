@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/socircle-app/static/css/main.9ee32246.css",
-    "main.js": "/socircle-app/static/js/main.f615e328.js",
-    "static/media/Bathroom_bannerimg_lg.png": "/socircle-app/static/media/Bathroom_bannerimg_lg.dbc4ff3f4d1aa660fc25.png",
-    "static/media/Bathroom_bannerimg.png": "/socircle-app/static/media/Bathroom_bannerimg.409be711f93fe9901cdc.png",
+    "main.css": "/socircle-app/static/css/main.bc294446.css",
+    "main.js": "/socircle-app/static/js/main.e28f3b44.js",
+    "static/media/CommunityBackdrop.png": "/socircle-app/static/media/CommunityBackdrop.57d86d52753e6952493d.png",
+    "static/media/ProductImage_6.jpg": "/socircle-app/static/media/ProductImage_6.26b21b3791fd58519e85.jpg",
     "static/media/HIW-ImageTwo.png": "/socircle-app/static/media/HIW-ImageTwo.096decaefbcd0795db65.png",
     "static/media/Shop_BannerImg.png": "/socircle-app/static/media/Shop_BannerImg.3db15443ff9b29711598.png",
     "static/media/HeroImage.png": "/socircle-app/static/media/HeroImage.35507606bbc69803885f.png",
     "static/media/ProductImage.png": "/socircle-app/static/media/ProductImage.65937b1821228fe44ae1.png",
+    "static/media/ProductImage_2.webp": "/socircle-app/static/media/ProductImage_2.05ad7cf41d7d025671fa.webp",
+    "static/media/ProductImage_4.webp": "/socircle-app/static/media/ProductImage_4.e052efbcbdc762549532.webp",
     "static/media/HIW-ImageFour.png": "/socircle-app/static/media/HIW-ImageFour.ae35409e270c6faec08f.png",
     "static/media/HIW-ImageThree.png": "/socircle-app/static/media/HIW-ImageThree.4358efe1d034fd2353fb.png",
     "static/media/HIW-ImageOne.png": "/socircle-app/static/media/HIW-ImageOne.de200e87918b81504088.png",
+    "static/media/ProductImage_3.webp": "/socircle-app/static/media/ProductImage_3.43ff673a6e4cde29b729.webp",
+    "static/media/ProductImage_5.jpg": "/socircle-app/static/media/ProductImage_5.8e3f127dc9ca2a44171c.jpg",
     "static/media/SoCircle_SVG.svg": "/socircle-app/static/media/SoCircle_SVG.3541f62649c66a9c2df08a49e1572d34.svg",
     "index.html": "/socircle-app/index.html",
-    "main.9ee32246.css.map": "/socircle-app/static/css/main.9ee32246.css.map",
-    "main.f615e328.js.map": "/socircle-app/static/js/main.f615e328.js.map"
+    "static/media/pagegradient.svg": "/socircle-app/static/media/pagegradient.a122d382e628856c59ab.svg",
+    "main.bc294446.css.map": "/socircle-app/static/css/main.bc294446.css.map",
+    "main.e28f3b44.js.map": "/socircle-app/static/js/main.e28f3b44.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ee32246.css",
-    "static/js/main.f615e328.js"
+    "static/css/main.bc294446.css",
+    "static/js/main.e28f3b44.js"
   ]
 }

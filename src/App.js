@@ -1,5 +1,5 @@
 import Home from "./pages/Home/Home"
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Shop from "./pages/Shop/Shop";
 import Community from "./pages/Community/Community";
 import Product from "./pages/Shop/SingleProduct/Product";
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <SmoothScroll>
           <Routes>
             <Route path="/" element={<Home/>}/>
@@ -18,7 +18,7 @@ function App() {
             <Route path="/product" element={<Product/>}/>
           </Routes>
         </SmoothScroll>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

@@ -2,23 +2,17 @@ import HIW_Image1 from "./HIW-ImageOne.png"
 import HIW_Image2 from "./HIW-ImageTwo.png"
 import HIW_Image3 from "./HIW-ImageThree.png"
 import HIW_Image4 from "./HIW-ImageFour.png"
-import BannerImg from "./Bathroom_bannerimg.png"
 
 function HowItWorks() {
   return (
-    <section className="border-1 border-top bg-white">
+    <section className="border-1 border-top bg-light">
 
       <div className="container">
         <div className="row pt-5 pb-5">
-          {/* <div className="col-12 d-flex justify-content-center align-items-center">
-            <hr className="flex-grow-1 border border-dark border-1 opacity-50" />
-            <h3 className="fs-4 text-center ms-5 me-5 mb-0">How It Works</h3>
-            <hr className="flex-grow-1 border border-dark border-1 opacity-50" />
-          </div> */}
         </div>
 
         <div class="pt-5 pb-5 row align-items-center d-flex flex-lg-row flex-column-reverse justify-content-around">
-          <div class="col-12 col-lg-5 p-lg-5">
+          <div class="col-12  col-lg-5 p-lg-5 bg-white rounded-3 border border-1">
             <p class="text-center text-lg-start mb-2 mt-5 fs-2 fw-bold align-items-center">
               Clarify your needs
             </p>
@@ -27,13 +21,13 @@ function HowItWorks() {
             </p>
             
           </div>
-        <div class="col-10 col-lg-6 text-center">
-          <img class="img-fluid" src={HIW_Image1} alt="Body lotion product image and user recommendation" />
+        <div class="col-10 col-lg-6 text-center pb-4 pb-lg-0">
+          <img class="img-fluid" src={HIW_Image1} alt="User selects their accessibility needs such as sensitive skin and low mobility." />
         </div>
       </div>
 
       <div class="pt-5 pb-5 row align-items-center d-flex flex-lg-row flex-column-reverse justify-content-around">
-          <div class="col-12 col-lg-5 order-lg-2 p-lg-5">
+          <div class="col-12 col-lg-5 order-lg-2 p-lg-5 bg-white rounded-3 border border-1">
             <p class="text-center text-lg-start mb-2 mt-5 fs-2 fw-bold align-items-center">
               Browse curated selection
             </p>
@@ -42,13 +36,13 @@ function HowItWorks() {
             </p>
             
           </div>
-        <div class="col-10 col-lg-6 text-center">
-          <img class="img-fluid" src={HIW_Image2} alt="Body lotion product image and user recommendation" />
+        <div class="col-10 col-lg-6 text-center pb-4 pb-lg-0">
+          <img class="img-fluid" src={HIW_Image2} alt="User views curated products that are meant to specifically help those with similar needs" />
         </div>
       </div>
 
       <div class="pt-5 pb-5 row align-items-center d-flex flex-lg-row flex-column-reverse justify-content-around">
-          <div class="col-12 col-lg-5 p-lg-5">
+          <div class="col-12 col-lg-5 p-lg-5 bg-white rounded-3 border border-1">
             <p class="text-center text-lg-start mb-2 mt-5 fs-2 fw-bold align-items-center">
               Utilize reviews from users with similar needs
             </p>
@@ -57,13 +51,13 @@ function HowItWorks() {
             </p>
             
           </div>
-        <div class="col-10 col-lg-6 text-center">
-          <img class="img-fluid" src={HIW_Image3} alt="Body lotion product image and user recommendation" />
+        <div class="col-10 col-lg-6 text-center pb-4 pb-lg-0">
+          <img class="img-fluid" src={HIW_Image3} alt="Relevant reviews help users with similar needs find the perfect items for them" />
         </div>
       </div>
 
       <div class="pt-5 pb-5 row align-items-center d-flex flex-lg-row flex-column-reverse justify-content-around">
-          <div class="col-12 col-lg-5 order-lg-2 p-lg-5">
+          <div class="col-12 col-lg-5 order-lg-2 p-lg-5 bg-white rounded-3 border border-1">
             <p class="text-center text-lg-start mb-2 mt-5 fs-2 fw-bold align-items-center">
               Join the conversation
             </p>
@@ -72,8 +66,8 @@ function HowItWorks() {
             </p>
             
           </div>
-        <div class="col-10 col-lg-6 text-center">
-          <img class="img-fluid" src={HIW_Image4} alt="Body lotion product image and user recommendation" />
+        <div class="col-10 col-lg-6 text-center pb-4 pb-lg-0">
+          <img class="img-fluid" src={HIW_Image4} alt="Share a post about what works for you in order to help those with similar needs" />
         </div>
       </div>
      

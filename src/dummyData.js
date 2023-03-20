@@ -1,0 +1,71 @@
+export const Users = [
+    {
+        id:1,
+        profilePicture: "",
+        date: "",
+        rating: "",
+    }
+]
+
+export const Items = [
+    {
+        id: 1,
+        itemName: "",
+        desc: "",
+        photo: "",
+        tags: ["mobility", "skin"],
+        price: 0,
+        rating: 0,
+        reviews: 0,
+    },
+    {
+        id: 2,
+        itemName: "",
+        desc: "",
+        photo: "",
+        tags: ["mobility", "skin"],
+        price: 0,
+        rating: 0,
+        reviews: 0,
+    },
+    {
+        id: 3,
+        itemName: "",
+        desc: "",
+        photo: "",
+        tags: ["mobility", "skin"],
+        price: 0,
+        rating: 0,
+        reviews: 0,
+    },
+    {
+        id: 4,
+        itemName: "",
+        desc: "",
+        photo: "",
+        tags: ["mobility", "skin"],
+        price: 0,
+        rating: 0,
+        reviews: 0,
+    },
+    {
+        id: 5,
+        itemName: "",
+        desc: "",
+        photo: "",
+        tags: ["mobility", "skin"],
+        price: 0,
+        rating: 0,
+        reviews: 0,
+    },
+    {
+        id: 6,
+        itemName: "",
+        desc: "",
+        photo: "",
+        tags: ["mobility", "skin"],
+        price: 0,
+        rating: 0,
+        reviews: 0,
+    },
+]

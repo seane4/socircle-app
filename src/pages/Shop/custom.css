@@ -1,6 +1,10 @@
 .bg-shop {
     background-color: #733C87;
     background-image: url("./Shop_BannerImg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height:300px;
 }
 
 .bg-community {
@@ -57,11 +61,53 @@
     color: #852A2A;
 }
 
-.usercard {
+/* .usercard {
     border: 1.5px solid #b4b4b4;
-}
+} */
 
 .stickpad {
     position: sticky;
     top: 20px;
+    z-index: 20;
+}
+
+#module #collapseExample.collapse:not(.show) {
+    display: block;
+    height: 3rem;
+    overflow: hidden;
+  }
+  
+  #module #collapseExample.collapsing {
+    height: 3rem;
+  }
+
+  #module a.collapsed:after  {
+    content: '+ Show More';
+}
+
+#module a:not(.collapsed):after {
+    content: '- Show Less';
+}
+
+/* Jordan Example */
+#modulejordan #collapseExamplejordan.collapse:not(.show) {
+    display: block;
+    height: 3rem;
+    overflow: hidden;
+  }
+  
+  #modulejordan #collapseExamplejordan.collapsing {
+    height: 3rem;
+  }
+
+  #modulejordan a.collapsed:after  {
+    content: '+ Show More';
+}
+
+#modulejordan a:not(.collapsed):after {
+    content: '- Show Less';
+}
+
+.itemheight {
+    height: 100%;
 }

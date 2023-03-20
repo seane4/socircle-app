@@ -1,25 +1,28 @@
 import React from 'react'
 import Nav from '../../components/Nav/Nav'
-import ShopBanner from "./Shop_BannerImg.png"
-import BathroomImg from "./Bathroom_bannerimg_lg.png"
 import ProductImg from "./ProductImage.png"
+import ProductImg2 from "./ProductImage_2.webp"
+import ProductImg3 from "./ProductImage_3.webp"
+import ProductImg4 from "./ProductImage_4.webp"
+import ProductImg5 from "./ProductImage_5.jpg"
+import ProductImg6 from "./ProductImage_6.jpg"
+import { Link } from 'react-router-dom'
 import "./custom.css"
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import Footer from '../../components/Footer/Footer'
 
 function Shop() {
     
     return (
         <div>
             <Nav />
-            <main class="bg-light">
-                <div class="pt-5">
+            <main class="bg-light pb-5">
+                <div class="pt-5 pb-5">
                     {/*Container*/}
 
-                        <div class="container bg-light">
+                        <div class="container-fluid bg-light">
 
-                        <div class="container">
-                            <div class="row p-5 bg-shop my-5 text-white text-center">
+                        <div class="container-fluid">
+                            <div class="row bg-shop m-auto text-white text-center me-4 ms-4 align-items-center rounded-3 border border-1">
                                 <div class="jumbotron jumbotron-fluid">
                                         
                                             <h1 class="display-5 unbounded">Discover Inclusive Beauty</h1>
@@ -32,7 +35,7 @@ function Shop() {
 
                         {/*Row*/}
 
-                        <div class="row gap-3 mt-5 d-flex flex-fill bg-white">
+                        <div class="row col-10 gap-3 mt-5 d-flex flex-fill bg-white rounded-3 border border-1 m-auto pb-5">
 
                             {/*Col*/}
                             <aside class="col-lg-2 d-flex flex-fill col-md-4 mb-6 mb-md-0 p-3">
@@ -94,7 +97,7 @@ function Shop() {
                                                         <label class="form-check mb-3">
                                                             <input class="form-check-input" type="checkbox" value=""/>
                                                             <span class="form-check-label">
-                                                                Cognitive Impairment
+                                                                Cognitive Assistance
                                                             </span>
                                                         </label>  
                                                     </form>
@@ -290,7 +293,7 @@ function Shop() {
                                                         <label class="form-check mb-3">
                                                             <input class="form-check-input" type="checkbox" value=""/>
                                                             <span class="form-check-label">
-                                                                Cognitive Impairment
+                                                                Cognitive Assistance
                                                             </span>
                                                         </label>  
                                                     </form>
@@ -452,27 +455,18 @@ function Shop() {
                                         <div class="d-flex align-items-center justify-content-between mb-0 ">
                                             <div class="ms-0 d-lg-none">
                                                 <btn class="btn btn-outline-secondary me-2" data-bs-toggle="offcanvas" href="#offcanvasCategory" role="button" aria-controls="offcanvasCategory">
-                                                    {/* <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-filter me-2">
-                                                        <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
-                                                    </svg>  */}
+                                                    
                                                     Filters
                                                 </btn>
                                             </div>
                                             <div class="mb-0 mb-lg-0">
-                                                <p class="mb-0"> <span class="text-dark">24 </span> Products found </p>
+                                                <p class="mb-0"> <span class="text-dark">6 </span> Products found </p>
                                             </div>
                                             
                                         </div>
 
                                         <div class="d-flex mt-2 mt-lg-0">
-                                            <div class="me-2 flex-grow-1">
 
-                                                <select class="form-select">
-                                                    <option defaultValue="">Show: 50</option>
-                                                    <option value="10">10</option>
-                                                    <option value="20">20</option>
-                                                    <option value="30">30</option>
-                                                </select></div>
                                             <div>
 
                                                 <select class="form-select">
@@ -489,31 +483,37 @@ function Shop() {
                                     </div>
                                 </div>
 
-                                <div class="row g-4 row-cols-xl-3 row-cols-lg-3 row-cols-2 row-cols-md-2 mt-2">
+                                <div class="row g-4 row-cols-xl-3 row-cols-lg-3 row-cols-1 row-cols-sm-2 row-cols-md-2 mt-2">
 
-
+                                    
                                     <div class="col">
 
-                                        <div class="card card-product border-1 p-2 product">
-                                            <div class="card-body p-0">
+                                        <div class="card card-product border-1 p-2 product itemheight">
+                                            <div class="card-body p-0 itemheight">
                                                 <div class="text-center position-relative ">
                                                     <a href="">
-                                                        <img src={ProductImg} alt="" class="mb-0 img-fluid w-100"/>
+                                                        <img src={ProductImg} alt="Nécessaire Body Lotion Image" class="mb-0 img-fluid w-100"/>
                                                     </a>
                                                 </div>
                                                 <div class="p-1">
-                                                    <div class= "pt-1 pb-1">
-                                                        <span class="badge vision">Low/No Vision</span>
+                                                    <div class="badgegroup d-flex flex-row gap-1 flex-wrap">
+                                                        <div class= "pt-1 pb-1">
+                                                            <span class="badge skin">Sensitive Skin</span>
+                                                        </div>
+                                                        <div class= "pt-1 pb-1">
+                                                            <span class="badge allergy">Allergy-Free</span>
+                                                        </div>
                                                     </div>
+                                                    
                                                     <div class="d-flex justify-content-between align-items-center">
                                                         <h3 class="fs-6 m-0">
-                                                            <a href="" class="text-dark text-decoration-none">Nécessaire Body Lotion</a>
+                                                            <Link to="/product" href="" class="text-dark text-decoration-none">Nécessaire Body Lotion</Link>
                                                         </h3>
                                                         <div>
                                                             <span class=" fs-5 text-dark">$18</span>
                                                         </div>
                                                     </div>
-                                                    <div class="bottomcontainer d-flex flex-row align-items-center justify-content-between">
+                                                    <div class="bottomcontainer d-flex flex-wrap flex-row align-items-center justify-content-between">
                                                         <div class="left flex-fill">
                                                             <div class="text-small mb-0">
                                                                 <div class="text-decoration-none text-muted">
@@ -523,6 +523,58 @@ function Shop() {
                                                             <div class="">
                                                                 <i class="fa fa-star me-1"></i>
                                                                 <span class="text-muted small">4.5(149)</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="right flex-fill">
+                                                            <div class="">
+                                                                <div>
+                                                                    <Link to="/product" class="btn btn-dark rounded-0 btn-sm w-100 p-2"> View Product</Link>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+
+                                        <div class="card card-product border-1 p-2 product itemheight">
+                                            <div class="card-body p-0 itemheight d-flex flex-column justify-content-between">
+                                                <div class="text-center position-relative ">
+                                                    <a href="">
+                                                        <img src={ProductImg3} alt="Hero Force Shield Image" class="mb-0 img-fluid w-100"/>
+                                                    </a>
+                                                </div>
+                                                <div class="p-1">
+                                                    <div class="badgegroup d-flex flex-row gap-1 flex-wrap">
+                                                        <div class= "pt-1 pb-1">
+                                                            <span class="badge vision">Low/No Vision</span>
+                                                        </div>
+                                                        <div class= "pt-1 pb-1">
+                                                            <span class="badge skin">Sensitive Skin</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <h3 class="fs-6 m-0">
+                                                            <a href="" class="text-dark text-decoration-none">Hero Force Shield</a>
+                                                        </h3>
+                                                        <div>
+                                                            <span class=" fs-5 text-dark">$46</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bottomcontainer d-flex flex-row align-items-center justify-content-between flex-wrap">
+                                                        <div class="left flex-fill">
+                                                            <div class="text-small mb-0">
+                                                                <div class="text-decoration-none text-muted">
+                                                                    <small>Serum</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="">
+                                                                <i class="fa fa-star me-1"></i>
+                                                                <span class="text-muted small">4.2(80)</span>
                                                             </div>
                                                         </div>
                                                         <div class="right flex-fill">
@@ -541,71 +593,29 @@ function Shop() {
 
                                     <div class="col">
 
-                                        <div class="card card-product border-1 p-2 product">
-                                            <div class="card-body p-0">
+                                        <div class="card card-product border-1 p-2 product itemheight">
+                                            <div class="card-body p-0 itemheight d-flex flex-column justify-content-between">
                                                 <div class="text-center position-relative ">
                                                     <a href="">
-                                                        <img src={ProductImg} alt="" class="mb-0 img-fluid w-100"/>
-                                                    </a>
-                                                </div>
-                                                <div class="p-1">
-                                                    <div class= "pt-1 pb-1">
-                                                        <span class="badge vision">Low/No Vision</span>
-                                                    </div>
-                                                    <div class="d-flex justify-content-between align-items-center">
-                                                        <h3 class="fs-6 m-0">
-                                                            <a href="" class="text-dark text-decoration-none">Nécessaire Body Lotion</a>
-                                                        </h3>
-                                                        <div>
-                                                            <span class=" fs-5 text-dark">$18</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="bottomcontainer d-flex flex-row align-items-center justify-content-between">
-                                                        <div class="left flex-fill">
-                                                            <div class="text-small mb-0">
-                                                                <div class="text-decoration-none text-muted">
-                                                                    <small>Body Lotion</small>
-                                                                </div>
-                                                            </div>
-                                                            <div class="">
-                                                                <i class="fa fa-star me-1"></i>
-                                                                <span class="text-muted small">4.5(149)</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="right flex-fill">
-                                                            <div class="">
-                                                                <div>
-                                                                    <a href="#!" class="btn btn-dark rounded-0 btn-sm w-100 p-2"> View Product</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col">
-
-                                        <div class="card card-product border-1 p-2 product">
-                                            <div class="card-body p-0">
-                                                <div class="text-center position-relative ">
-                                                    <a href="">
-                                                        <img src={ProductImg} alt="" class="mb-0 img-fluid w-100"/>
+                                                        <img src={ProductImg2} alt="Native Facial Care Image" class="mb-0 img-fluid w-100"/>
                                                         
                                                     </a>
                                                 </div>
                                                 <div class="p-1">
-                                                    <div class= "pt-1 pb-1">
-                                                        <span class="badge vision">Low/No Vision</span>
+                                                    <div class="badgegroup d-flex flex-row gap-1 flex-wrap">
+                                                        <div class= "pt-1 pb-1">
+                                                            <span class="badge cog">Cognitive Assistance </span>
+                                                        </div>
+                                                        <div class= "pt-1 pb-1">
+                                                            <span class="badge skin">Sensitive Skin</span>
+                                                        </div>
                                                     </div>
                                                     <div class="d-flex justify-content-between align-items-center">
                                                         <h3 class="fs-6 m-0">
-                                                            <a href="" class="text-dark text-decoration-none">Nécessaire Body Lotion</a>
+                                                            <a href="" class="text-dark text-decoration-none">Native Facial Care</a>
                                                         </h3>
                                                         <div>
-                                                            <span class=" fs-5 text-dark">$18</span>
+                                                            <span class=" fs-5 text-dark">$45</span>
                                                         </div>
                                                     </div>
                                                     <div class="bottomcontainer d-flex flex-row align-items-center justify-content-between">
@@ -640,31 +650,140 @@ function Shop() {
                                             <div class="card-body p-0">
                                                 <div class="text-center position-relative ">
                                                     <a href="">
-                                                        <img src={ProductImg} alt="" class="mb-0 img-fluid w-100"/>
+                                                        <img src={ProductImg4} alt="Protini Polypeptide Cream Image" class="mb-0 img-fluid w-100"/>
                                                     </a>
                                                 </div>
                                                 <div class="p-1">
-                                                    <div class= "pt-1 pb-1">
-                                                        <span class="badge vision">Low/No Vision</span>
+                                                    <div class="badgegroup d-flex flex-row gap-1 flex-wrap">
+                                                        <div class= "pt-1 pb-1">
+                                                            <span class="badge mobility">Limited Mobility</span>
+                                                        </div>
+                                                        <div class= "pt-1 pb-1">
+                                                            <span class="badge skin">Sensitive Skin</span>
+                                                        </div>
                                                     </div>
                                                     <div class="d-flex justify-content-between align-items-center">
                                                         <h3 class="fs-6 m-0">
-                                                            <a href="" class="text-dark text-decoration-none">Nécessaire Body Lotion</a>
+                                                            <a href="" class="text-dark text-decoration-none">Protini Polypeptide Cream</a>
                                                         </h3>
                                                         <div>
-                                                            <span class=" fs-5 text-dark">$18</span>
+                                                            <span class=" fs-5 text-dark">$34</span>
                                                         </div>
                                                     </div>
                                                     <div class="bottomcontainer d-flex flex-row align-items-center justify-content-between">
                                                         <div class="left flex-fill">
                                                             <div class="text-small mb-0">
                                                                 <div class="text-decoration-none text-muted">
-                                                                    <small>Body Lotion</small>
+                                                                    <small>Cream</small>
                                                                 </div>
                                                             </div>
                                                             <div class="">
                                                                 <i class="fa fa-star me-1"></i>
-                                                                <span class="text-muted small">4.5(149)</span>
+                                                                <span class="text-muted small">4.0(18)</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="right flex-fill">
+                                                            <div class="">
+                                                                <div>
+                                                                    <a href="#!" class="btn btn-dark rounded-0 btn-sm w-100 p-2"> View Product</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+
+                                        <div class="card card-product border-1 p-2 product itemheight">
+                                            <div class="card-body p-0 itemheight d-flex flex-column justify-content-between ">
+                                                <div class="text-center position-relative ">
+                                                    <a href="">
+                                                        <img src={ProductImg5} alt="Protini Polypeptide Serum Image" class="mb-0 img-fluid w-100"/>
+                                                    </a>
+                                                </div>
+                                                <div class="p-1">
+                                                    <div class="badgegroup d-flex flex-row gap-1 flex-wrap">
+                                                        <div class= "pt-1 pb-1">
+                                                            <span class="badge mobility">Limited Mobility</span>
+                                                        </div>
+                                                        <div class= "pt-1 pb-1">
+                                                            <span class="badge skin">Sensitive Skin</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <h3 class="fs-6 m-0">
+                                                            <a href="" class="text-dark text-decoration-none">Protini Polypeptide Serum</a>
+                                                        </h3>
+                                                        <div>
+                                                            <span class=" fs-5 text-dark">$28</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bottomcontainer d-flex flex-row align-items-center justify-content-between">
+                                                        <div class="left flex-fill">
+                                                            <div class="text-small mb-0">
+                                                                <div class="text-decoration-none text-muted">
+                                                                    <small>Serum</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="">
+                                                                <i class="fa fa-star me-1"></i>
+                                                                <span class="text-muted small">4.6(30)</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="right flex-fill">
+                                                            <div class="">
+                                                                <div>
+                                                                    <a href="#!" class="btn btn-dark rounded-0 btn-sm w-100 p-2"> View Product</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+
+                                        <div class="card card-product border-1 p-2 product itemheight">
+                                            <div class="card-body p-0 itemheight d-flex flex-column justify-content-between">
+                                                <div class="text-center position-relative ">
+                                                    <a href="">
+                                                        <img src={ProductImg6} alt="Humanrace Routine Pack Image" class="mb-0 img-fluid w-100 rounded-1"/>
+                                                    </a>
+                                                </div>
+                                                <div class="p-1">
+                                                    <div class="badgegroup d-flex flex-row gap-1 flex-wrap">
+                                                        <div class= "pt-1 pb-1">
+                                                            <span class="badge vision">Low/No Vision</span>
+                                                        </div>
+                                                        <div class= "pt-1 pb-1">
+                                                            <span class="badge skin">Sensitive Skin</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <h3 class="fs-6 m-0">
+                                                            <a href="" class="text-dark text-decoration-none">Humanrace Routine Pack</a>
+                                                        </h3>
+                                                        <div>
+                                                            <span class=" fs-5 text-dark">$110</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bottomcontainer d-flex flex-row align-items-center justify-content-between">
+                                                        <div class="left flex-fill">
+                                                            <div class="text-small mb-0">
+                                                                <div class="text-decoration-none text-muted">
+                                                                    <small>Cream</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="">
+                                                                <i class="fa fa-star me-1"></i>
+                                                                <span class="text-muted small">4.8(55)</span>
                                                             </div>
                                                         </div>
                                                         <div class="right flex-fill">
@@ -683,36 +802,14 @@ function Shop() {
 
 
                                 </div>
-                                <div class="row mt-5">
-                                    <div class="col">
-
-                                        <nav class="">
-                                            <ul class="pagination">
-                                                <li class="page-item disabled">
-                                                    <a class="page-link  mx-1 " href="#" aria-label="Previous">
-                                                        <i class="fa fa-chevron-left"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="page-item "><a class="page-link  mx-1 active" href="#">1</a></li>
-                                                <li class="page-item"><a class="page-link mx-1 text-body" href="#">2</a></li>
-
-                                                <li class="page-item"><a class="page-link mx-1 text-body" href="#">...</a></li>
-                                                <li class="page-item"><a class="page-link mx-1 text-body" href="#">12</a></li>
-                                                <li class="page-item">
-                                                    <a class="page-link mx-1 text-body" href="#" aria-label="Next">
-                                                        <i class="fa fa-chevron-right"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
+                                
                             </section>
                         </div>
                     </div>
 
                 </div>
             </main>
+            <Footer/>
         </div>
     )
 }

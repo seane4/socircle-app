@@ -14,7 +14,7 @@ function Nav() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll gap-0 gap-lg-4">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll gap-0 gap-lg-4 align-items-center">
             <li class="nav-item">
               <Link to="/" class="nav-link" aria-current="page">Home</Link>
             </li>
